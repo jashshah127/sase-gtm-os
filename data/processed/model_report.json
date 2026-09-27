@@ -1,0 +1,549 @@
+{
+  "model": {
+    "method": "Logistic regression (standardized numerics, one-hot categoricals), trained on specialist-covered accounts only",
+    "train_accounts": 2392,
+    "train_adopters": 841,
+    "cv_auc_logistic": 0.757,
+    "cv_auc_gradient_boosting": 0.734,
+    "lift": [
+      {
+        "decile": 1,
+        "accounts": 240,
+        "adopters": 192,
+        "attach_rate": 0.8,
+        "cum_capture": 0.228
+      },
+      {
+        "decile": 2,
+        "accounts": 239,
+        "adopters": 142,
+        "attach_rate": 0.594,
+        "cum_capture": 0.397
+      },
+      {
+        "decile": 3,
+        "accounts": 239,
+        "adopters": 105,
+        "attach_rate": 0.439,
+        "cum_capture": 0.522
+      },
+      {
+        "decile": 4,
+        "accounts": 239,
+        "adopters": 112,
+        "attach_rate": 0.469,
+        "cum_capture": 0.655
+      },
+      {
+        "decile": 5,
+        "accounts": 239,
+        "adopters": 73,
+        "attach_rate": 0.305,
+        "cum_capture": 0.742
+      },
+      {
+        "decile": 6,
+        "accounts": 240,
+        "adopters": 59,
+        "attach_rate": 0.246,
+        "cum_capture": 0.812
+      },
+      {
+        "decile": 7,
+        "accounts": 239,
+        "adopters": 54,
+        "attach_rate": 0.226,
+        "cum_capture": 0.876
+      },
+      {
+        "decile": 8,
+        "accounts": 239,
+        "adopters": 49,
+        "attach_rate": 0.205,
+        "cum_capture": 0.935
+      },
+      {
+        "decile": 9,
+        "accounts": 239,
+        "adopters": 37,
+        "attach_rate": 0.155,
+        "cum_capture": 0.979
+      },
+      {
+        "decile": 10,
+        "accounts": 239,
+        "adopters": 18,
+        "attach_rate": 0.075,
+        "cum_capture": 1.0
+      }
+    ],
+    "drivers": [
+      {
+        "driver": "Incumbent: Zscaler (vs Third-party VPN)",
+        "coef": -1.385,
+        "odds_ratio": 0.25
+      },
+      {
+        "driver": "Incumbent: Netskope (vs Third-party VPN)",
+        "coef": -1.025,
+        "odds_ratio": 0.36
+      },
+      {
+        "driver": "Incumbent: Cloudflare (vs Third-party VPN)",
+        "coef": -0.801,
+        "odds_ratio": 0.45
+      },
+      {
+        "driver": "Incumbent: Cisco (vs Third-party VPN)",
+        "coef": -0.788,
+        "odds_ratio": 0.45
+      },
+      {
+        "driver": "Incumbent: Fortinet (vs Third-party VPN)",
+        "coef": -0.682,
+        "odds_ratio": 0.51
+      },
+      {
+        "driver": "Industry: Education (vs Manufacturing)",
+        "coef": -0.601,
+        "odds_ratio": 0.55
+      },
+      {
+        "driver": "Remote workforce share (+1 SD)",
+        "coef": 0.575,
+        "odds_ratio": 1.78
+      },
+      {
+        "driver": "Branch footprint (+1 SD)",
+        "coef": 0.553,
+        "odds_ratio": 1.74
+      },
+      {
+        "driver": "Industry: Healthcare (vs Manufacturing)",
+        "coef": 0.552,
+        "odds_ratio": 1.74
+      },
+      {
+        "driver": "Industry: Financial Services (vs Manufacturing)",
+        "coef": 0.489,
+        "odds_ratio": 1.63
+      },
+      {
+        "driver": "Incumbent: GlobalProtect VPN (vs Third-party VPN)",
+        "coef": 0.423,
+        "odds_ratio": 1.53
+      },
+      {
+        "driver": "Industry: Public Sector (vs Manufacturing)",
+        "coef": -0.387,
+        "odds_ratio": 0.68
+      }
+    ],
+    "top_decile_lift": 2.28,
+    "top3_decile_capture": 0.522
+  },
+  "whitespace": {
+    "non_customers": 3141,
+    "land_potential_total": 266849200.0,
+    "expected_value_total": 91066600.0,
+    "accounts_for_half_of_ev": 244,
+    "share_of_accounts_for_half": 0.078,
+    "expansion_whitespace_total": 266170600.0,
+    "ev_by_play": {
+      "Branch transformation": 4926000.0,
+      "Competitive displacement": 30510000.0,
+      "GlobalProtect migration": 32983000.0,
+      "Partner-led nurture": 9493000.0,
+      "Renewal-timed attach": 13154000.0
+    }
+  },
+  "coverage_gap": {
+    "by_coverage": [
+      {
+        "covered": 0,
+        "accounts": 1808,
+        "actual_attach": 0.121,
+        "modeled_attach": 0.286,
+        "latent_customers": 299
+      },
+      {
+        "covered": 1,
+        "accounts": 2392,
+        "actual_attach": 0.352,
+        "modeled_attach": 0.352,
+        "latent_customers": 0
+      }
+    ],
+    "by_region_segment": [
+      {
+        "region": "AMER",
+        "segment": "Commercial",
+        "accounts": 812,
+        "covered_share": 0.793,
+        "actual": 0.204,
+        "modeled": 0.232,
+        "gap_pts": 2.8
+      },
+      {
+        "region": "AMER",
+        "segment": "Enterprise",
+        "accounts": 397,
+        "covered_share": 1.0,
+        "actual": 0.421,
+        "modeled": 0.422,
+        "gap_pts": 0.2
+      },
+      {
+        "region": "AMER",
+        "segment": "Large Enterprise",
+        "accounts": 137,
+        "covered_share": 1.0,
+        "actual": 0.496,
+        "modeled": 0.477,
+        "gap_pts": -1.9
+      },
+      {
+        "region": "AMER",
+        "segment": "Mid-Market",
+        "accounts": 729,
+        "covered_share": 1.0,
+        "actual": 0.344,
+        "modeled": 0.345,
+        "gap_pts": 0.1
+      },
+      {
+        "region": "EMEA",
+        "segment": "Commercial",
+        "accounts": 498,
+        "covered_share": 0.0,
+        "actual": 0.092,
+        "modeled": 0.236,
+        "gap_pts": 14.3
+      },
+      {
+        "region": "EMEA",
+        "segment": "Enterprise",
+        "accounts": 211,
+        "covered_share": 0.882,
+        "actual": 0.412,
+        "modeled": 0.439,
+        "gap_pts": 2.7
+      },
+      {
+        "region": "EMEA",
+        "segment": "Large Enterprise",
+        "accounts": 87,
+        "covered_share": 1.0,
+        "actual": 0.506,
+        "modeled": 0.482,
+        "gap_pts": -2.4
+      },
+      {
+        "region": "EMEA",
+        "segment": "Mid-Market",
+        "accounts": 464,
+        "covered_share": 0.151,
+        "actual": 0.183,
+        "modeled": 0.336,
+        "gap_pts": 15.3
+      },
+      {
+        "region": "JAPAC",
+        "segment": "Commercial",
+        "accounts": 353,
+        "covered_share": 0.0,
+        "actual": 0.076,
+        "modeled": 0.235,
+        "gap_pts": 15.9
+      },
+      {
+        "region": "JAPAC",
+        "segment": "Enterprise",
+        "accounts": 143,
+        "covered_share": 0.573,
+        "actual": 0.322,
+        "modeled": 0.402,
+        "gap_pts": 8.0
+      },
+      {
+        "region": "JAPAC",
+        "segment": "Large Enterprise",
+        "accounts": 60,
+        "covered_share": 1.0,
+        "actual": 0.4,
+        "modeled": 0.478,
+        "gap_pts": 7.8
+      },
+      {
+        "region": "JAPAC",
+        "segment": "Mid-Market",
+        "accounts": 309,
+        "covered_share": 0.0,
+        "actual": 0.155,
+        "modeled": 0.349,
+        "gap_pts": 19.3
+      }
+    ],
+    "uncovered_latent_ev": 23989000.0,
+    "uncovered_share_of_ev": 0.263
+  },
+  "deal_effects": {
+    "closed_land_deals": 1453,
+    "sse_rival_deals": 700,
+    "raw_win_sse_no_bundle": 0.2234,
+    "raw_win_sse_bundle": 0.429,
+    "adj_win_sse_no_bundle": 0.2246,
+    "adj_win_sse_bundle": 0.427,
+    "adj_win_not_aligned": 0.35,
+    "adj_win_aligned": 0.4569,
+    "adj_win_uncovered": 0.28,
+    "adj_win_covered": 0.4166,
+    "note": "Counterfactual averages from a logistic regression of land-deal outcomes on bundle, rival, bundle x rival, coverage, renewal alignment, partner source, and segment."
+  },
+  "icp": {
+    "table": [
+      {
+        "attribute": "Prisma Access",
+        "value": "Not a customer",
+        "base_share": 0.748,
+        "adopter_share": 0.543,
+        "lift": 0.73,
+        "points": 0
+      },
+      {
+        "attribute": "Prisma Access",
+        "value": "Customer",
+        "base_share": 0.252,
+        "adopter_share": 0.457,
+        "lift": 1.81,
+        "points": 10
+      },
+      {
+        "attribute": "Contractor share",
+        "value": "8 to 15%",
+        "base_share": 0.465,
+        "adopter_share": 0.506,
+        "lift": 1.09,
+        "points": 0
+      },
+      {
+        "attribute": "Contractor share",
+        "value": "Under 8%",
+        "base_share": 0.302,
+        "adopter_share": 0.136,
+        "lift": 0.45,
+        "points": 0
+      },
+      {
+        "attribute": "Contractor share",
+        "value": "15 to 25%",
+        "base_share": 0.223,
+        "adopter_share": 0.309,
+        "lift": 1.38,
+        "points": 5
+      },
+      {
+        "attribute": "Contractor share",
+        "value": "25% or more",
+        "base_share": 0.01,
+        "adopter_share": 0.049,
+        "lift": 5.19,
+        "points": 30
+      },
+      {
+        "attribute": "Unmanaged devices",
+        "value": "15 to 25%",
+        "base_share": 0.547,
+        "adopter_share": 0.506,
+        "lift": 0.93,
+        "points": 0
+      },
+      {
+        "attribute": "Unmanaged devices",
+        "value": "Under 15%",
+        "base_share": 0.296,
+        "adopter_share": 0.259,
+        "lift": 0.88,
+        "points": 0
+      },
+      {
+        "attribute": "Unmanaged devices",
+        "value": "25 to 35%",
+        "base_share": 0.145,
+        "adopter_share": 0.222,
+        "lift": 1.53,
+        "points": 5
+      },
+      {
+        "attribute": "Unmanaged devices",
+        "value": "35% or more",
+        "base_share": 0.012,
+        "adopter_share": 0.012,
+        "lift": 1.04,
+        "points": 0
+      },
+      {
+        "attribute": "VDI",
+        "value": "No VDI",
+        "base_share": 0.665,
+        "adopter_share": 0.494,
+        "lift": 0.74,
+        "points": 0
+      },
+      {
+        "attribute": "VDI",
+        "value": "Runs VDI",
+        "base_share": 0.335,
+        "adopter_share": 0.506,
+        "lift": 1.51,
+        "points": 5
+      },
+      {
+        "attribute": "Industry",
+        "value": "Financial Services",
+        "base_share": 0.156,
+        "adopter_share": 0.222,
+        "lift": 1.42,
+        "points": 5
+      },
+      {
+        "attribute": "Industry",
+        "value": "Manufacturing",
+        "base_share": 0.149,
+        "adopter_share": 0.086,
+        "lift": 0.58,
+        "points": 0
+      },
+      {
+        "attribute": "Industry",
+        "value": "Healthcare",
+        "base_share": 0.13,
+        "adopter_share": 0.16,
+        "lift": 1.23,
+        "points": 5
+      },
+      {
+        "attribute": "Industry",
+        "value": "Technology",
+        "base_share": 0.118,
+        "adopter_share": 0.198,
+        "lift": 1.67,
+        "points": 10
+      },
+      {
+        "attribute": "Industry",
+        "value": "Retail",
+        "base_share": 0.096,
+        "adopter_share": 0.012,
+        "lift": 0.13,
+        "points": 0
+      },
+      {
+        "attribute": "Industry",
+        "value": "Professional Services",
+        "base_share": 0.081,
+        "adopter_share": 0.099,
+        "lift": 1.22,
+        "points": 5
+      },
+      {
+        "attribute": "Industry",
+        "value": "Public Sector",
+        "base_share": 0.075,
+        "adopter_share": 0.025,
+        "lift": 0.33,
+        "points": 0
+      },
+      {
+        "attribute": "Industry",
+        "value": "Telecommunications",
+        "base_share": 0.074,
+        "adopter_share": 0.086,
+        "lift": 1.17,
+        "points": 5
+      },
+      {
+        "attribute": "Industry",
+        "value": "Education",
+        "base_share": 0.062,
+        "adopter_share": 0.074,
+        "lift": 1.2,
+        "points": 5
+      },
+      {
+        "attribute": "Industry",
+        "value": "Energy & Utilities",
+        "base_share": 0.058,
+        "adopter_share": 0.037,
+        "lift": 0.63,
+        "points": 0
+      },
+      {
+        "attribute": "Segment",
+        "value": "Commercial",
+        "base_share": 0.396,
+        "adopter_share": 0.259,
+        "lift": 0.65,
+        "points": 0
+      },
+      {
+        "attribute": "Segment",
+        "value": "Mid-Market",
+        "base_share": 0.358,
+        "adopter_share": 0.42,
+        "lift": 1.17,
+        "points": 5
+      },
+      {
+        "attribute": "Segment",
+        "value": "Enterprise",
+        "base_share": 0.179,
+        "adopter_share": 0.16,
+        "lift": 0.9,
+        "points": 0
+      },
+      {
+        "attribute": "Segment",
+        "value": "Large Enterprise",
+        "base_share": 0.068,
+        "adopter_share": 0.16,
+        "lift": 2.37,
+        "points": 15
+      }
+    ],
+    "tier_cutoffs": {
+      "A": 20,
+      "B": 10
+    },
+    "tiers": [
+      {
+        "tier": "A",
+        "accounts": 1114,
+        "early_adopter_rate": 0.0359,
+        "post_launch_opps": 227,
+        "opps_per_100_accounts": 20.4,
+        "post_launch_win_rate": 0.455,
+        "post_launch_wins": 56
+      },
+      {
+        "tier": "B",
+        "accounts": 1628,
+        "early_adopter_rate": 0.019,
+        "post_launch_opps": 116,
+        "opps_per_100_accounts": 7.1,
+        "post_launch_win_rate": 0.143,
+        "post_launch_wins": 10
+      },
+      {
+        "tier": "C",
+        "accounts": 1458,
+        "early_adopter_rate": 0.0069,
+        "post_launch_opps": 48,
+        "opps_per_100_accounts": 3.3,
+        "post_launch_win_rate": 0.094,
+        "post_launch_wins": 3
+      }
+    ],
+    "early_adopters": 81
+  }
+}

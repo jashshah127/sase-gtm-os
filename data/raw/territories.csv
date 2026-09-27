@@ -1,0 +1,71 @@
+territory_id,region,segment,account_count,specialist_covered,specialist_id
+AMER-LE-01,AMER,Large Enterprise,18,1,SP-003
+AMER-LE-02,AMER,Large Enterprise,3,1,SP-002
+AMER-LE-03,AMER,Large Enterprise,7,1,SP-003
+AMER-LE-04,AMER,Large Enterprise,2,1,SP-003
+AMER-LE-05,AMER,Large Enterprise,15,1,SP-002
+AMER-LE-06,AMER,Large Enterprise,7,1,SP-004
+AMER-LE-07,AMER,Large Enterprise,18,1,SP-004
+AMER-LE-08,AMER,Large Enterprise,6,1,SP-001
+AMER-LE-09,AMER,Large Enterprise,20,1,SP-002
+AMER-LE-10,AMER,Large Enterprise,17,1,SP-001
+AMER-LE-11,AMER,Large Enterprise,24,1,SP-001
+AMER-ENT-01,AMER,Enterprise,11,1,SP-005
+AMER-ENT-02,AMER,Enterprise,31,1,SP-006
+AMER-ENT-03,AMER,Enterprise,33,1,SP-005
+AMER-ENT-04,AMER,Enterprise,41,1,SP-008
+AMER-ENT-05,AMER,Enterprise,59,1,SP-006
+AMER-ENT-06,AMER,Enterprise,51,1,SP-007
+AMER-ENT-07,AMER,Enterprise,68,1,SP-005
+AMER-ENT-08,AMER,Enterprise,38,1,SP-009
+AMER-ENT-09,AMER,Enterprise,24,1,SP-008
+AMER-ENT-10,AMER,Enterprise,26,1,SP-007
+AMER-ENT-11,AMER,Enterprise,15,1,SP-009
+AMER-MM-01,AMER,Mid-Market,111,1,SP-010
+AMER-MM-02,AMER,Mid-Market,81,1,SP-010
+AMER-MM-03,AMER,Mid-Market,99,1,SP-012
+AMER-MM-04,AMER,Mid-Market,61,1,SP-012
+AMER-MM-05,AMER,Mid-Market,99,1,SP-013
+AMER-MM-06,AMER,Mid-Market,80,1,SP-011
+AMER-MM-07,AMER,Mid-Market,87,1,SP-014
+AMER-MM-08,AMER,Mid-Market,111,1,SP-011
+AMER-COM-01,AMER,Commercial,83,0,
+AMER-COM-02,AMER,Commercial,227,1,SP-016
+AMER-COM-03,AMER,Commercial,85,0,
+AMER-COM-04,AMER,Commercial,146,1,SP-015
+AMER-COM-05,AMER,Commercial,271,1,SP-015
+EMEA-LE-01,EMEA,Large Enterprise,9,1,SP-018
+EMEA-LE-02,EMEA,Large Enterprise,15,1,SP-018
+EMEA-LE-03,EMEA,Large Enterprise,10,1,SP-017
+EMEA-LE-04,EMEA,Large Enterprise,21,1,SP-017
+EMEA-LE-05,EMEA,Large Enterprise,12,1,SP-018
+EMEA-LE-06,EMEA,Large Enterprise,7,1,SP-017
+EMEA-LE-07,EMEA,Large Enterprise,13,1,SP-017
+EMEA-ENT-01,EMEA,Enterprise,35,1,SP-021
+EMEA-ENT-02,EMEA,Enterprise,35,1,SP-019
+EMEA-ENT-03,EMEA,Enterprise,25,0,
+EMEA-ENT-04,EMEA,Enterprise,38,1,SP-020
+EMEA-ENT-05,EMEA,Enterprise,50,1,SP-019
+EMEA-ENT-06,EMEA,Enterprise,28,1,SP-020
+EMEA-MM-01,EMEA,Mid-Market,128,0,
+EMEA-MM-02,EMEA,Mid-Market,89,0,
+EMEA-MM-03,EMEA,Mid-Market,42,0,
+EMEA-MM-04,EMEA,Mid-Market,135,0,
+EMEA-MM-05,EMEA,Mid-Market,70,1,SP-022
+EMEA-COM-01,EMEA,Commercial,190,0,
+EMEA-COM-02,EMEA,Commercial,173,0,
+EMEA-COM-03,EMEA,Commercial,135,0,
+JAPAC-LE-01,JAPAC,Large Enterprise,7,1,SP-023
+JAPAC-LE-02,JAPAC,Large Enterprise,9,1,SP-024
+JAPAC-LE-03,JAPAC,Large Enterprise,20,1,SP-023
+JAPAC-LE-04,JAPAC,Large Enterprise,14,1,SP-024
+JAPAC-LE-05,JAPAC,Large Enterprise,10,1,SP-023
+JAPAC-ENT-01,JAPAC,Enterprise,43,1,SP-025
+JAPAC-ENT-02,JAPAC,Enterprise,24,0,
+JAPAC-ENT-03,JAPAC,Enterprise,37,0,
+JAPAC-ENT-04,JAPAC,Enterprise,39,1,SP-026
+JAPAC-MM-01,JAPAC,Mid-Market,142,0,
+JAPAC-MM-02,JAPAC,Mid-Market,68,0,
+JAPAC-MM-03,JAPAC,Mid-Market,99,0,
+JAPAC-COM-01,JAPAC,Commercial,106,0,
+JAPAC-COM-02,JAPAC,Commercial,247,0,

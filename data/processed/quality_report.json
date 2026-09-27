@@ -1,0 +1,112 @@
+{
+  "as_of": "2026-09-25",
+  "raw_accounts": 4209,
+  "clean_accounts": 4200,
+  "raw_opportunities": 3127,
+  "clean_opportunities": 3096,
+  "quarantined_opportunities": 31,
+  "checks": [
+    {
+      "check": "Duplicate accounts",
+      "description": "Same normalized name, country, and headcount under different IDs",
+      "rows_checked": 4209,
+      "rows_failed": 9,
+      "action": "Merged into surviving record",
+      "owner": "Sales Ops (CRM hygiene)",
+      "sample_ids": [
+        "A900000",
+        "A900001",
+        "A900002",
+        "A900003",
+        "A900004"
+      ]
+    },
+    {
+      "check": "Orphan opportunities",
+      "description": "Opportunity references an account that does not exist",
+      "rows_checked": 3127,
+      "rows_failed": 11,
+      "action": "Quarantined",
+      "owner": "Sales Ops (CRM hygiene)",
+      "sample_ids": [
+        "O990000",
+        "O990001",
+        "O990002",
+        "O990003",
+        "O990004"
+      ]
+    },
+    {
+      "check": "Close date before created date",
+      "description": "Impossible lifecycle; usually a data-entry or migration error",
+      "rows_checked": 3127,
+      "rows_failed": 14,
+      "action": "Quarantined",
+      "owner": "Deal owner, via Sales Ops",
+      "sample_ids": [
+        "O100261",
+        "O100362",
+        "O100508",
+        "O100813",
+        "O101065"
+      ]
+    },
+    {
+      "check": "Non-positive amount",
+      "description": "Zero or negative ARR on an opportunity",
+      "rows_checked": 3127,
+      "rows_failed": 6,
+      "action": "Quarantined",
+      "owner": "Deal owner, via Sales Ops",
+      "sample_ids": [
+        "O100216",
+        "O100809",
+        "O100834",
+        "O102721",
+        "O102971"
+      ]
+    },
+    {
+      "check": "Past-due close date on open deal",
+      "description": "Open opportunity whose close date has already passed",
+      "rows_checked": 464,
+      "rows_failed": 23,
+      "action": "Flagged for owner update",
+      "owner": "Deal owner",
+      "sample_ids": [
+        "O102074",
+        "O102143",
+        "O102174",
+        "O102321",
+        "O102370"
+      ]
+    },
+    {
+      "check": "Loss reason consistency",
+      "description": "Closed Lost deals need a loss reason; other stages must not have one",
+      "rows_checked": 3096,
+      "rows_failed": 0,
+      "action": "Pass",
+      "owner": "Deal owner",
+      "sample_ids": []
+    },
+    {
+      "check": "Territory reference",
+      "description": "Account assigned to a territory that does not exist",
+      "rows_checked": 4200,
+      "rows_failed": 0,
+      "action": "Pass",
+      "owner": "Sales Ops (territory)",
+      "sample_ids": []
+    },
+    {
+      "check": "Won land deal without customer flag",
+      "description": "A closed-won land deal must mark the account as a Prisma Access customer",
+      "rows_checked": 552,
+      "rows_failed": 0,
+      "action": "Pass",
+      "owner": "Sales Ops (CRM hygiene)",
+      "sample_ids": []
+    }
+  ]
+}

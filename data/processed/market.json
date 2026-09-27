@@ -1,0 +1,665 @@
+{
+ "as_of": "2026-09-25",
+ "curated": {
+  "status": "loaded",
+  "rows": [
+   {
+    "company": "Palo Alto Networks",
+    "ticker": "PANW",
+    "metric": "SASE ARR",
+    "scope": "Prisma Access, Prisma SD-WAN, PAN-OS SD-WAN, SaaS Security and DLP subscriptions",
+    "period_end": "2026-04-30",
+    "fiscal_period": "Q3 FY26",
+    "value": 1600,
+    "growth": 0.4,
+    "source_title": "Q3 FY26 earnings call highlights (GuruFocus via Yahoo Finance)",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-inc-panw-050022001.html",
+    "notes": "Latest exact SASE ARR found. The Q4 FY26 materials reported SASE bookings growth of 40% but no SASE ARR figure in the sources reviewed. Scope per the Q1 FY26 earnings presentation."
+   },
+   {
+    "company": "Palo Alto Networks",
+    "ticker": "PANW",
+    "metric": "Next-Generation Security ARR",
+    "scope": "Company-wide next-generation security portfolio",
+    "period_end": "2026-07-31",
+    "fiscal_period": "Q4 FY26",
+    "value": 9100,
+    "growth": 0.63,
+    "source_title": "Q4 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/ex991q426earningsrelease.htm",
+    "notes": "Company-wide, not SASE-specific."
+   },
+   {
+    "company": "Zscaler",
+    "ticker": "ZS",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "period_end": "2025-07-31",
+    "fiscal_period": "Q4 FY25",
+    "value": 3015,
+    "growth": null,
+    "source_title": "Zscaler investor relations home page (Q4 FY26 summary)",
+    "source_url": "https://ir.zscaler.com/",
+    "notes": "Prior-year comparison point shown on the IR page."
+   },
+   {
+    "company": "Zscaler",
+    "ticker": "ZS",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "period_end": "2026-01-31",
+    "fiscal_period": "Q2 FY26",
+    "value": 3359,
+    "growth": 0.25,
+    "source_title": "Q2 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-01312026_991.htm",
+    "notes": ""
+   },
+   {
+    "company": "Zscaler",
+    "ticker": "ZS",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "period_end": "2026-04-30",
+    "fiscal_period": "Q3 FY26",
+    "value": 3525,
+    "growth": 0.25,
+    "source_title": "Q3 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000095/zs-04302026_991.htm",
+    "notes": ""
+   },
+   {
+    "company": "Zscaler",
+    "ticker": "ZS",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "period_end": "2026-07-31",
+    "fiscal_period": "Q4 FY26",
+    "value": 3771,
+    "growth": 0.25,
+    "source_title": "Q4 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
+    "notes": "Includes $141M of ARR from the Red Canary acquisition."
+   },
+   {
+    "company": "Zscaler",
+    "ticker": "ZS",
+    "metric": "ARR excluding Red Canary",
+    "scope": "Company-wide, organic",
+    "period_end": "2026-07-31",
+    "fiscal_period": "Q4 FY26",
+    "value": 3630,
+    "growth": 0.2,
+    "source_title": "Q4 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
+    "notes": "Organic figure used for the growth comparison. Zscaler ARR is company-wide, not SASE-only."
+   },
+   {
+    "company": "Zscaler",
+    "ticker": "ZS",
+    "metric": "FY27 ARR guidance (midpoint)",
+    "scope": "Company-wide",
+    "period_end": "2027-07-31",
+    "fiscal_period": "FY27 guidance",
+    "value": 4411,
+    "growth": 0.17,
+    "source_title": "Q4 FY26 earnings call highlights (Yahoo Finance)",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-q4-earnings-call-highlights-230400397.html",
+    "notes": "Guidance range $4,396M to $4,426M, roughly 17% growth."
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2024-06-30",
+    "fiscal_period": "Q2 2024",
+    "value": 968,
+    "growth": 0.22,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2024-09-30",
+    "fiscal_period": "Q3 2024",
+    "value": 1107,
+    "growth": 0.32,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2024-12-31",
+    "fiscal_period": "Q4 2024",
+    "value": 1151,
+    "growth": 0.28,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2025-03-31",
+    "fiscal_period": "Q1 2025",
+    "value": 1183,
+    "growth": 0.26,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2025-06-30",
+    "fiscal_period": "Q2 2025",
+    "value": 1186,
+    "growth": 0.23,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2025-09-30",
+    "fiscal_period": "Q3 2025",
+    "value": 1224,
+    "growth": 0.11,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2025-12-31",
+    "fiscal_period": "Q4 2025",
+    "value": 1278,
+    "growth": 0.11,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2026-03-31",
+    "fiscal_period": "Q1 2026",
+    "value": 1326,
+    "growth": 0.12,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "period_end": "2026-06-30",
+    "fiscal_period": "Q2 2026",
+    "value": 1405,
+    "growth": 0.18,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Netskope",
+    "ticker": "NTSK",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "period_end": "2025-10-31",
+    "fiscal_period": "Q3 FY26",
+    "value": 754,
+    "growth": 0.34,
+    "source_title": "Q3 FY26 earnings release",
+    "source_url": "https://www.netskope.com/press-releases/netskope-announces-strong-third-quarter-fiscal-year-2026-financial-results",
+    "notes": ""
+   },
+   {
+    "company": "Netskope",
+    "ticker": "NTSK",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "period_end": "2026-01-31",
+    "fiscal_period": "Q4 FY26",
+    "value": 811,
+    "growth": 0.31,
+    "source_title": "Q4 FY26 earnings release",
+    "source_url": "https://investors.netskope.com/news-releases/news-release-details/netskope-announces-strong-fourth-quarter-and-fiscal-year-2026",
+    "notes": "Net revenue retention of 116% per the Q4 FY26 earnings call."
+   },
+   {
+    "company": "Netskope",
+    "ticker": "NTSK",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "period_end": "2026-04-30",
+    "fiscal_period": "Q1 FY27",
+    "value": 845,
+    "growth": 0.29,
+    "source_title": "Q1 FY27 earnings call highlights (GuruFocus via Yahoo Finance)",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/netskope-inc-ntsk-q1-2026-050038565.html",
+    "notes": "The article labels this Q1 2026; Netskope's fiscal quarter ended April 30, 2026."
+   }
+  ],
+  "scoreboard": [
+   {
+    "company": "Fortinet",
+    "metric": "Unified SASE ARR",
+    "scope": "Fortinet-defined Unified SASE",
+    "fiscal_period": "Q2 2026",
+    "period_end": "2026-06-30",
+    "value": 1405,
+    "growth": 0.18,
+    "source_title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "source_url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1",
+    "notes": ""
+   },
+   {
+    "company": "Netskope",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "fiscal_period": "Q1 FY27",
+    "period_end": "2026-04-30",
+    "value": 845,
+    "growth": 0.29,
+    "source_title": "Q1 FY27 earnings call highlights (GuruFocus via Yahoo Finance)",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/netskope-inc-ntsk-q1-2026-050038565.html",
+    "notes": "The article labels this Q1 2026; Netskope's fiscal quarter ended April 30, 2026."
+   },
+   {
+    "company": "Palo Alto Networks",
+    "metric": "SASE ARR",
+    "scope": "Prisma Access, Prisma SD-WAN, PAN-OS SD-WAN, SaaS Security and DLP subscriptions",
+    "fiscal_period": "Q3 FY26",
+    "period_end": "2026-04-30",
+    "value": 1600,
+    "growth": 0.4,
+    "source_title": "Q3 FY26 earnings call highlights (GuruFocus via Yahoo Finance)",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-inc-panw-050022001.html",
+    "notes": "Latest exact SASE ARR found. The Q4 FY26 materials reported SASE bookings growth of 40% but no SASE ARR figure in the sources reviewed. Scope per the Q1 FY26 earnings presentation."
+   },
+   {
+    "company": "Palo Alto Networks",
+    "metric": "Next-Generation Security ARR",
+    "scope": "Company-wide next-generation security portfolio",
+    "fiscal_period": "Q4 FY26",
+    "period_end": "2026-07-31",
+    "value": 9100,
+    "growth": 0.63,
+    "source_title": "Q4 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/ex991q426earningsrelease.htm",
+    "notes": "Company-wide, not SASE-specific."
+   },
+   {
+    "company": "Zscaler",
+    "metric": "ARR excluding Red Canary",
+    "scope": "Company-wide, organic",
+    "fiscal_period": "Q4 FY26",
+    "period_end": "2026-07-31",
+    "value": 3630,
+    "growth": 0.2,
+    "source_title": "Q4 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
+    "notes": "Organic figure used for the growth comparison. Zscaler ARR is company-wide, not SASE-only."
+   },
+   {
+    "company": "Zscaler",
+    "metric": "ARR",
+    "scope": "Company-wide",
+    "fiscal_period": "Q4 FY26",
+    "period_end": "2026-07-31",
+    "value": 3771,
+    "growth": 0.25,
+    "source_title": "Q4 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm",
+    "notes": "Includes $141M of ARR from the Red Canary acquisition."
+   },
+   {
+    "company": "Zscaler",
+    "metric": "FY27 ARR guidance (midpoint)",
+    "scope": "Company-wide",
+    "fiscal_period": "FY27 guidance",
+    "period_end": "2027-07-31",
+    "value": 4411,
+    "growth": 0.17,
+    "source_title": "Q4 FY26 earnings call highlights (Yahoo Finance)",
+    "source_url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-q4-earnings-call-highlights-230400397.html",
+    "notes": "Guidance range $4,396M to $4,426M, roughly 17% growth."
+   }
+  ],
+  "series": {
+   "Fortinet Unified SASE ARR": [
+    {
+     "t": 546,
+     "v": 0.968,
+     "label": "Q2 2024 (2024-06-30)"
+    },
+    {
+     "t": 638,
+     "v": 1.107,
+     "label": "Q3 2024 (2024-09-30)"
+    },
+    {
+     "t": 730,
+     "v": 1.151,
+     "label": "Q4 2024 (2024-12-31)"
+    },
+    {
+     "t": 820,
+     "v": 1.183,
+     "label": "Q1 2025 (2025-03-31)"
+    },
+    {
+     "t": 911,
+     "v": 1.186,
+     "label": "Q2 2025 (2025-06-30)"
+    },
+    {
+     "t": 1003,
+     "v": 1.224,
+     "label": "Q3 2025 (2025-09-30)"
+    },
+    {
+     "t": 1095,
+     "v": 1.278,
+     "label": "Q4 2025 (2025-12-31)"
+    },
+    {
+     "t": 1185,
+     "v": 1.326,
+     "label": "Q1 2026 (2026-03-31)"
+    },
+    {
+     "t": 1276,
+     "v": 1.405,
+     "label": "Q2 2026 (2026-06-30)"
+    }
+   ],
+   "Netskope ARR": [
+    {
+     "t": 1034,
+     "v": 0.754,
+     "label": "Q3 FY26 (2025-10-31)"
+    },
+    {
+     "t": 1126,
+     "v": 0.811,
+     "label": "Q4 FY26 (2026-01-31)"
+    },
+    {
+     "t": 1215,
+     "v": 0.845,
+     "label": "Q1 FY27 (2026-04-30)"
+    }
+   ],
+   "Palo Alto Networks SASE ARR": [
+    {
+     "t": 1215,
+     "v": 1.6,
+     "label": "Q3 FY26 (2026-04-30)"
+    }
+   ],
+   "Zscaler ARR": [
+    {
+     "t": 942,
+     "v": 3.015,
+     "label": "Q4 FY25 (2025-07-31)"
+    },
+    {
+     "t": 1126,
+     "v": 3.359,
+     "label": "Q2 FY26 (2026-01-31)"
+    },
+    {
+     "t": 1215,
+     "v": 3.525,
+     "label": "Q3 FY26 (2026-04-30)"
+    },
+    {
+     "t": 1307,
+     "v": 3.771,
+     "label": "Q4 FY26 (2026-07-31)"
+    }
+   ]
+  },
+  "growth": [
+   {
+    "kind": "company",
+    "company": "Palo Alto Networks",
+    "ticker": "PANW",
+    "metric": "SASE ARR",
+    "fiscal_period": "Q3 FY26",
+    "period_end": "2026-04-30",
+    "growth": 0.4
+   },
+   {
+    "kind": "company",
+    "company": "Zscaler",
+    "ticker": "ZS",
+    "metric": "ARR excluding Red Canary",
+    "fiscal_period": "Q4 FY26",
+    "period_end": "2026-07-31",
+    "growth": 0.2
+   },
+   {
+    "kind": "company",
+    "company": "Fortinet",
+    "ticker": "FTNT",
+    "metric": "Unified SASE ARR",
+    "fiscal_period": "Q2 2026",
+    "period_end": "2026-06-30",
+    "growth": 0.18
+   },
+   {
+    "kind": "company",
+    "company": "Netskope",
+    "ticker": "NTSK",
+    "metric": "ARR",
+    "fiscal_period": "Q1 FY27",
+    "period_end": "2026-04-30",
+    "growth": 0.29
+   },
+   {
+    "kind": "market",
+    "company": "SASE market (Dell'Oro)",
+    "ticker": "",
+    "metric": "manufacturer revenue",
+    "fiscal_period": "1Q 2026",
+    "period_end": "2026-03-31",
+    "growth": 0.21
+   }
+  ],
+  "market": {
+   "quarterly": [
+    {
+     "period": "4Q 2024",
+     "value": 2.6,
+     "unit": "USD billions",
+     "precision": "exact",
+     "growth": 0.14,
+     "source_url": "https://www.delloro.com/news/sase-gains-momentum-in-4q-2024-as-sd-wan-revenue-rebounds/",
+     "notes": ""
+    },
+    {
+     "period": "2Q 2025",
+     "value": 2.7,
+     "unit": "USD billions",
+     "precision": "exact",
+     "growth": 0.22,
+     "source_url": "https://www.delloro.com/news/ai-ready-sase-branch-architectures-push-2q-2025-revenue-up-22-percent-to-2-7-b/",
+     "notes": "Palo Alto Networks SSE revenue up 35% and SD-WAN up 73% year over year in the quarter."
+    },
+    {
+     "period": "3Q 2025",
+     "value": 3.0,
+     "unit": "USD billions",
+     "precision": "approx",
+     "growth": 0.21,
+     "source_url": "https://www.prnewswire.com/news-releases/sase-is-putting-the-nail-in-the-coffin-for-access-routers-as-market-drops-25-percent-in-3q2025-according-to-delloro-group-302638916.html",
+     "notes": "Reported as nearly $3B. Top three vendors by revenue: Zscaler, Cisco, Palo Alto Networks."
+    },
+    {
+     "period": "1Q 2026",
+     "value": 3.0,
+     "unit": "USD billions",
+     "precision": "floor",
+     "growth": 0.21,
+     "source_url": "https://www.delloro.com/news/sase-1q-2026-revenue-climbs-21-percent-to-over-3-b-driven-by-ai-governance/",
+     "notes": "Reported as over $3B."
+    }
+   ],
+   "facts": [
+    {
+     "metric": "SASE market forecast",
+     "period": "2029",
+     "value": 17.0,
+     "unit": "USD billions",
+     "precision": "exact",
+     "notes": "12% compound annual growth forecast.",
+     "source_url": "https://www.delloro.com/news/single-vendor-sase-to-represent-90-percent-of-17-billion-market-in-2029/"
+    },
+    {
+     "metric": "Single-vendor SASE share of market (forecast)",
+     "period": "2029",
+     "value": 90.0,
+     "unit": "percent",
+     "precision": "exact",
+     "notes": "",
+     "source_url": "https://www.delloro.com/news/single-vendor-sase-to-represent-90-percent-of-17-billion-market-in-2029/"
+    },
+    {
+     "metric": "Top six vendors' share of SASE market",
+     "period": "2024",
+     "value": 71.0,
+     "unit": "percent",
+     "precision": "exact",
+     "notes": "Up from 64% in 2023: Zscaler, Cisco, Palo Alto Networks, Broadcom, Fortinet, Netskope.",
+     "source_url": "https://www.delloro.com/news/sase-gains-momentum-in-4q-2024-as-sd-wan-revenue-rebounds/"
+    }
+   ]
+  },
+  "sources": [
+   {
+    "title": "Q3 FY26 earnings call highlights (GuruFocus via Yahoo Finance)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-inc-panw-050022001.html"
+   },
+   {
+    "title": "Q4 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1327567/000132756726000019/ex991q426earningsrelease.htm"
+   },
+   {
+    "title": "Zscaler investor relations home page (Q4 FY26 summary)",
+    "url": "https://ir.zscaler.com/"
+   },
+   {
+    "title": "Q2 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/1713683/000171368326000047/zs-01312026_991.htm"
+   },
+   {
+    "title": "Q3 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000095/zs-04302026_991.htm"
+   },
+   {
+    "title": "Q4 FY26 earnings release (SEC Form 8-K, Exhibit 99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001713683/000171368326000156/zs-07312026_991.htm"
+   },
+   {
+    "title": "Q4 FY26 earnings call highlights (Yahoo Finance)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/zscaler-q4-earnings-call-highlights-230400397.html"
+   },
+   {
+    "title": "Q2 2026 earnings presentation (historical Unified SASE ARR table)",
+    "url": "https://investor.fortinet.com/static-files/657dfcda-7367-4c36-8259-b0b43a535da1"
+   },
+   {
+    "title": "Q3 FY26 earnings release",
+    "url": "https://www.netskope.com/press-releases/netskope-announces-strong-third-quarter-fiscal-year-2026-financial-results"
+   },
+   {
+    "title": "Q4 FY26 earnings release",
+    "url": "https://investors.netskope.com/news-releases/news-release-details/netskope-announces-strong-fourth-quarter-and-fiscal-year-2026"
+   },
+   {
+    "title": "Q1 FY27 earnings call highlights (GuruFocus via Yahoo Finance)",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/netskope-inc-ntsk-q1-2026-050038565.html"
+   },
+   {
+    "title": "Dell'Oro Group: SASE market revenue (4Q 2024)",
+    "url": "https://www.delloro.com/news/sase-gains-momentum-in-4q-2024-as-sd-wan-revenue-rebounds/"
+   },
+   {
+    "title": "Dell'Oro Group: SASE market revenue (2Q 2025)",
+    "url": "https://www.delloro.com/news/ai-ready-sase-branch-architectures-push-2q-2025-revenue-up-22-percent-to-2-7-b/"
+   },
+   {
+    "title": "Dell'Oro Group: SASE market revenue (3Q 2025)",
+    "url": "https://www.prnewswire.com/news-releases/sase-is-putting-the-nail-in-the-coffin-for-access-routers-as-market-drops-25-percent-in-3q2025-according-to-delloro-group-302638916.html"
+   },
+   {
+    "title": "Dell'Oro Group: SASE market revenue (1Q 2026)",
+    "url": "https://www.delloro.com/news/sase-1q-2026-revenue-climbs-21-percent-to-over-3-b-driven-by-ai-governance/"
+   },
+   {
+    "title": "Dell'Oro Group: SASE market forecast (2029)",
+    "url": "https://www.delloro.com/news/single-vendor-sase-to-represent-90-percent-of-17-billion-market-in-2029/"
+   }
+  ]
+ },
+ "public": {
+  "sec": {
+   "status": "missing",
+   "file": "data/public/sec_financials.csv",
+   "data": null,
+   "fetched_at": null
+  },
+  "kev": {
+   "status": "missing",
+   "file": "data/public/kev_edge_vendors.csv",
+   "data": null,
+   "fetched_at": null
+  },
+  "census": {
+   "status": "missing",
+   "file": "data/public/census_susb.csv",
+   "data": null,
+   "fetched_at": null
+  }
+ },
+ "public_sources": [
+  {
+   "title": "SEC EDGAR APIs (company facts)",
+   "url": "https://www.sec.gov/search-filings/edgar-application-programming-interfaces"
+  },
+  {
+   "title": "CISA Known Exploited Vulnerabilities catalog",
+   "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+  },
+  {
+   "title": "US Census Bureau, Statistics of U.S. Businesses",
+   "url": "https://www.census.gov/programs-surveys/susb/about.html"
+  }
+ ]
+}

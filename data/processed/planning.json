@@ -1,0 +1,164 @@
+{
+  "inputs": {
+    "fy26_bookings": 47498200.0,
+    "win_rate": 0.364,
+    "core_baseline": 3638800.0000000005,
+    "specialist_start_months": [
+      -55.526315789473685,
+      -32.73026315789474,
+      -85.82236842105263,
+      -24.47368421052632,
+      -83.98026315789474,
+      -27.59868421052632,
+      -9.342105263157896,
+      -35.39473684210527,
+      -24.210526315789476,
+      -50.098684210526315,
+      -52.73026315789474,
+      -37.73026315789474,
+      -5.559210526315789,
+      -8.026315789473685,
+      -70.16447368421053,
+      -62.79605263157895,
+      -47.76315789473684,
+      -74.80263157894737,
+      -34.375,
+      -7.99342105263158,
+      -40.29605263157895,
+      -24.67105263157895,
+      -38.7171052631579,
+      -54.01315789473684,
+      -9.276315789473685,
+      -0.7565789473684211
+    ],
+    "actual_by_month": [
+      3700900.0,
+      5837400.0
+    ],
+    "specialist_cost": 300000,
+    "productivity": 2001000.0
+  },
+  "levers": {
+    "share_sse_deals": 0.482,
+    "bundle_share_in_sse_now": 0.463,
+    "bundle_share_target": 0.75,
+    "bundle_pts": 2.8,
+    "aligned_share_now": 0.284,
+    "aligned_share_target": 0.5,
+    "renewal_pts": 2.3
+  },
+  "scenarios": [
+    {
+      "name": "Current plan",
+      "description": "Today's specialists, backfills for attrition, no new hires",
+      "params": {
+        "growth": 0.35,
+        "productivity": 2001000.0,
+        "ramp_months": 6,
+        "attrition": 0.15,
+        "lead_months": 3,
+        "hires_now": 0,
+        "hires_q2": 0,
+        "win_delta_pts": 0.0,
+        "deal_delta": 0.0,
+        "partner_lift": 0.0
+      },
+      "attainment": 0.8534,
+      "forecast_total": 54723000.0,
+      "incremental_vs_current": 0.0,
+      "new_hire_cost_fy27": 0,
+      "new_hire_run_rate": 0.0
+    },
+    {
+      "name": "Hire 6 specialists now",
+      "description": "Approved this month, productive after lead time and ramp",
+      "params": {
+        "growth": 0.35,
+        "productivity": 2001000.0,
+        "ramp_months": 6,
+        "attrition": 0.15,
+        "lead_months": 3,
+        "hires_now": 6,
+        "hires_q2": 0,
+        "win_delta_pts": 0.0,
+        "deal_delta": 0.0,
+        "partner_lift": 0.0
+      },
+      "attainment": 0.9188,
+      "forecast_total": 58913000.0,
+      "incremental_vs_current": 4191000.0,
+      "new_hire_cost_fy27": 1050000.0,
+      "new_hire_run_rate": 12006000.0
+    },
+    {
+      "name": "Win-rate plays",
+      "description": "SD-WAN bundle in rival deals (+2.8 pts) and renewal timing (+2.3 pts)",
+      "params": {
+        "growth": 0.35,
+        "productivity": 2001000.0,
+        "ramp_months": 6,
+        "attrition": 0.15,
+        "lead_months": 3,
+        "hires_now": 0,
+        "hires_q2": 0,
+        "win_delta_pts": 5.1,
+        "deal_delta": 0.0,
+        "partner_lift": 0.0
+      },
+      "attainment": 0.9521,
+      "forecast_total": 61053000.0,
+      "incremental_vs_current": 6331000.0,
+      "new_hire_cost_fy27": 0,
+      "new_hire_run_rate": 0.0
+    },
+    {
+      "name": "Recommended: plays + 4 hires",
+      "description": "Smallest hiring plan that reaches 100% with both plays in place",
+      "params": {
+        "growth": 0.35,
+        "productivity": 2001000.0,
+        "ramp_months": 6,
+        "attrition": 0.15,
+        "lead_months": 3,
+        "hires_now": 4,
+        "hires_q2": 0,
+        "win_delta_pts": 5.1,
+        "deal_delta": 0.0,
+        "partner_lift": 0.0
+      },
+      "attainment": 1.0018,
+      "forecast_total": 64239000.0,
+      "incremental_vs_current": 9516000.0,
+      "new_hire_cost_fy27": 700000.0,
+      "new_hire_run_rate": 9125000.0
+    },
+    {
+      "name": "Hiring only",
+      "description": "Hires needed now if nothing else changes",
+      "params": {
+        "growth": 0.35,
+        "productivity": 2001000.0,
+        "ramp_months": 6,
+        "attrition": 0.15,
+        "lead_months": 3,
+        "hires_now": 14,
+        "hires_q2": 0,
+        "win_delta_pts": 0.0,
+        "deal_delta": 0.0,
+        "partner_lift": 0.0
+      },
+      "attainment": 1.0059,
+      "forecast_total": 64501000.0,
+      "incremental_vs_current": 9779000.0,
+      "new_hire_cost_fy27": 2450000.0,
+      "new_hire_run_rate": 28014000.0
+    }
+  ],
+  "baseline": {
+    "target": 64122570.00000001,
+    "forecast_total": 54722574.185453884,
+    "attainment": 0.8534058161651019,
+    "gap": 9399995.814546123
+  },
+  "hires_needed_alone": 14
+}

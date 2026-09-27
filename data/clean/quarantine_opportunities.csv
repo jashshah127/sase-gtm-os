@@ -1,0 +1,32 @@
+opp_id,account_id,opp_type,product,created_date,close_date,stage,amount,competitor,sdwan_bundle,source,loss_reason,loss_stage,stage_entry_date,push_count,last_push_date,renewal_aligned,specialist_covered,pov_start_date,quarantine_reason
+O990000,A800000,Land,Prisma Access,2026-07-30,2026-09-17,Closed Won,15300.0,Cloudflare,0,Specialist-sourced,,,2026-09-17,0,,1,1,2026-08-18,orphan account
+O990001,A800001,Land,Prisma Access,2024-02-22,2024-04-08,Closed Won,26000.0,No competitor,0,Partner-sourced,,,2024-04-08,0,,0,1,2024-03-11,orphan account
+O990002,A800002,Land,Prisma Access,2025-10-24,2026-01-01,Closed Lost,35900.0,Netskope,0,Partner-sourced,POV outcome,Technical Validation,2026-01-01,2,2025-12-11,0,0,2025-11-15,orphan account
+O990003,A800003,Expansion,SD-WAN add-on,2025-12-25,2026-02-26,Closed Won,32900.0,No competitor,1,Specialist-sourced,,,2026-02-26,0,,0,1,2026-01-18,orphan account
+O990004,A800004,Browser,Prisma Browser,2026-08-27,2026-10-28,Technical Validation,53400.0,No competitor,0,Marketing-sourced,,,2026-09-20,0,,0,1,,orphan account
+O990005,A800005,Land,Prisma Access,2025-08-20,2025-10-20,Closed Lost,21200.0,Zscaler,0,AE-sourced,Chose competitor,Technical Validation,2025-10-20,0,,1,0,2025-09-28,orphan account
+O990006,A800006,Expansion,SD-WAN add-on,2024-11-12,2025-01-04,Closed Won,44100.0,No competitor,1,Specialist-sourced,,,2025-01-04,0,,0,1,2024-12-02,orphan account
+O990007,A800007,Land,Prisma SASE bundle,2026-03-20,2026-10-06,Negotiation,211100.0,Netskope,1,Specialist-sourced,,,2026-09-06,1,2026-08-20,0,1,2026-05-19,orphan account
+O990008,A800008,Land,Prisma Access,2023-10-22,2024-02-18,Closed Lost,436800.0,Cloudflare,0,AE-sourced,Chose competitor,Technical Validation,2024-02-18,0,,0,1,2024-01-05,orphan account
+O990009,A800009,Browser,Prisma Browser,2026-08-27,2026-10-03,Technical Validation,15300.0,No competitor,0,Partner-sourced,,,2026-09-01,0,,0,1,2026-09-19,orphan account
+O990010,A800010,Expansion,Seat expansion,2024-09-12,2024-11-07,Closed Lost,152300.0,No competitor,0,Specialist-sourced,Timing or budget,Qualify,2024-11-07,2,2024-10-10,0,1,,orphan account
+O100261,A101071,Land,Prisma SASE bundle,2024-08-17,2023-10-29,Closed Won,186300.0,Netskope,1,Marketing-sourced,,,2024-08-17,3,2024-06-24,0,1,2024-01-01,close before create
+O100362,A100752,Land,Prisma Access,2024-07-14,2024-01-10,Closed Lost,26800.0,Cloudflare,0,Partner-sourced,Timing or budget,Proposal,2024-07-14,3,2024-05-25,0,0,2024-02-07,close before create
+O100508,A101566,Land,Prisma Access,2024-07-27,2024-04-08,Closed Won,93700.0,No competitor,0,Specialist-sourced,,,2024-07-27,0,,1,1,2024-05-20,close before create
+O100813,A100645,Browser,Prisma Browser,2024-11-17,2024-09-11,Closed Won,6600.0,No competitor,0,AE-sourced,,,2024-11-17,0,,0,0,2024-10-07,close before create
+O101065,A100082,Land,Prisma Access,2025-12-07,2025-01-17,Closed Won,779800.0,Cisco,0,AE-sourced,,,2025-12-07,0,,0,1,2025-05-20,close before create
+O101228,A100789,Land,Prisma SASE bundle,2025-11-25,2025-03-31,Closed Won,346300.0,Cloudflare,1,Marketing-sourced,,,2025-11-25,1,2025-10-15,0,1,2025-06-16,close before create
+O101435,A102866,Expansion,Seat expansion,2025-09-15,2025-06-23,Closed Won,68400.0,No competitor,0,Specialist-sourced,,,2025-09-15,2,2025-08-27,0,1,2025-07-09,close before create
+O101470,A103316,Land,Prisma Access,2025-10-03,2025-07-06,Closed Lost,23600.0,Netskope,0,Specialist-sourced,POV outcome,Technical Validation,2025-10-03,2,2025-09-05,1,1,2025-08-02,close before create
+O101516,A101132,Land,Prisma SASE bundle,2025-11-26,2025-07-27,Closed Lost,252000.0,Fortinet,1,Specialist-sourced,Incumbent contract term,Technical Validation,2025-11-26,0,,0,1,2025-10-12,close before create
+O101556,A103517,Browser,Prisma Browser,2025-09-23,2025-08-08,Closed Lost,21000.0,No competitor,0,AE-sourced,Timing or budget,Negotiation,2025-09-23,0,,0,0,2025-08-25,close before create
+O101987,A102860,Land,Prisma Access,2026-02-17,2026-01-10,Closed Lost,117000.0,Netskope,0,Specialist-sourced,Chose competitor,Technical Validation,2026-02-17,0,,0,1,2026-02-03,close before create
+O102089,A100321,Expansion,SD-WAN add-on,2026-07-12,2026-02-28,Closed Won,11800.0,No competitor,1,AE-sourced,,,2026-07-12,2,2026-05-25,0,0,2026-03-26,close before create
+O102228,A100558,Land,Prisma SASE bundle,2026-06-09,2026-04-10,Closed Lost,275700.0,Cisco,1,Partner-sourced,Timing or budget,Qualify,2026-06-09,0,,0,1,,close before create
+O102640,A103731,Browser,Prisma Browser,2026-08-20,2026-07-01,Closed Lost,6000.0,No competitor,0,Specialist-sourced,POV outcome,Technical Validation,2026-08-20,0,,0,1,2026-08-02,close before create
+O100216,A101917,Land,Prisma SASE bundle,2023-09-25,2023-12-20,Closed Lost,0.0,Zscaler,1,Specialist-sourced,No decision,Qualify,2023-12-20,0,,0,1,,non-positive amount
+O100809,A100267,Land,Prisma Access,2024-09-08,2024-10-11,Closed Lost,0.0,No competitor,0,Specialist-sourced,Timing or budget,Technical Validation,2024-10-11,0,,0,1,2024-09-29,non-positive amount
+O100834,A100819,Land,Prisma SASE bundle,2024-09-21,2024-12-14,Closed Lost,-900.0,Zscaler,1,Partner-sourced,Chose competitor,Proposal,2024-12-14,0,,1,0,2024-10-31,non-positive amount
+O102721,A103150,Expansion,Seat expansion,2026-07-16,2026-10-07,Negotiation,-12500.0,No competitor,0,Specialist-sourced,,,2026-09-25,1,2026-08-31,0,1,2026-08-04,non-positive amount
+O102971,A101196,Land,Prisma SASE bundle,2026-08-31,2027-05-31,Discover,-4800.0,Cisco,1,AE-sourced,,,2026-08-31,0,,1,1,,non-positive amount
+O103024,A103890,Land,Prisma SASE bundle,2026-09-09,2027-02-19,Discover,0.0,Zscaler,1,Specialist-sourced,,,2026-09-09,0,,0,1,,non-positive amount

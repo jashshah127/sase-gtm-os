@@ -1,0 +1,3 @@
+{"sec_financials.csv": {"source": "fake", "fetched_at": "2026-09-27T12:00:00Z", "rows": 11},
+ "kev_edge_vendors.csv": {"source": "fake", "fetched_at": "2026-09-27T12:00:00Z", "rows": 6},
+ "census_susb.csv": {"source": "fake", "fetched_at": "2026-09-27T12:00:00Z", "rows": 19}}

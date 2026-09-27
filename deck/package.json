@@ -1,0 +1,7 @@
+{
+  "name": "sase-gtm-readout-deck",
+  "private": true,
+  "description": "Builds docs/SASE_GTM_readout.pptx from deck/deck_data.json",
+  "scripts": { "build": "python ../deck/deck_data.py && node build_deck.js" },
+  "dependencies": { "pptxgenjs": "^4.0.1", "react": "^19.0.0", "react-dom": "^19.0.0", "react-icons": "^5.0.0", "sharp": "^0.34.0" }
+}

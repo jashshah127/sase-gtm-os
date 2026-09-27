@@ -1,0 +1,307 @@
+{
+ "author": "Jash Shah",
+ "github": "",
+ "as_of_label": "September 25, 2026",
+ "fy27_target": 64123000.0,
+ "fy26_bookings": 47498200.0,
+ "growth_target": 0.35,
+ "q1_pacing": 1.1637,
+ "q1_qtd": 9538300.0,
+ "q1_plan": 13466000.0,
+ "q2_plan": 16672000.0,
+ "coverage": [
+  {
+   "quarter": "FY27 Q1",
+   "pipeline": 12298400.0,
+   "remaining_plan": 3927000.0,
+   "coverage": 3.13
+  },
+  {
+   "quarter": "FY27 Q2",
+   "pipeline": 10640400.0,
+   "remaining_plan": 16672000.0,
+   "coverage": 0.64
+  },
+  {
+   "quarter": "FY27 Q3",
+   "pipeline": 9243900.0,
+   "remaining_plan": 14748000.0,
+   "coverage": 0.63
+  },
+  {
+   "quarter": "FY27 Q4",
+   "pipeline": 2408400.0,
+   "remaining_plan": 19237000.0,
+   "coverage": 0.13
+  }
+ ],
+ "weekly_pipeline": 1958937.5,
+ "unc": {
+  "covered": 0,
+  "accounts": 1808,
+  "actual_attach": 0.121,
+  "modeled_attach": 0.286,
+  "latent_customers": 299
+ },
+ "cov": {
+  "covered": 1,
+  "accounts": 2392,
+  "actual_attach": 0.352,
+  "modeled_attach": 0.352,
+  "latent_customers": 0
+ },
+ "gaps": [
+  {
+   "region": "JAPAC",
+   "segment": "Mid-Market",
+   "accounts": 309,
+   "covered_share": 0.0,
+   "actual": 0.155,
+   "modeled": 0.349,
+   "gap_pts": 19.3
+  },
+  {
+   "region": "JAPAC",
+   "segment": "Commercial",
+   "accounts": 353,
+   "covered_share": 0.0,
+   "actual": 0.076,
+   "modeled": 0.235,
+   "gap_pts": 15.9
+  },
+  {
+   "region": "EMEA",
+   "segment": "Mid-Market",
+   "accounts": 464,
+   "covered_share": 0.151,
+   "actual": 0.183,
+   "modeled": 0.336,
+   "gap_pts": 15.3
+  },
+  {
+   "region": "EMEA",
+   "segment": "Commercial",
+   "accounts": 498,
+   "covered_share": 0.0,
+   "actual": 0.092,
+   "modeled": 0.236,
+   "gap_pts": 14.3
+  }
+ ],
+ "whitespace": 91066600.0,
+ "half_accounts": 244,
+ "non_customers": 3141,
+ "deal": {
+  "closed_land_deals": 1453,
+  "sse_rival_deals": 700,
+  "raw_win_sse_no_bundle": 0.2234,
+  "raw_win_sse_bundle": 0.429,
+  "adj_win_sse_no_bundle": 0.2246,
+  "adj_win_sse_bundle": 0.427,
+  "adj_win_not_aligned": 0.35,
+  "adj_win_aligned": 0.4569,
+  "adj_win_uncovered": 0.28,
+  "adj_win_covered": 0.4166,
+  "note": "Counterfactual averages from a logistic regression of land-deal outcomes on bundle, rival, bundle x rival, coverage, renewal alignment, partner source, and segment."
+ },
+ "levers": {
+  "share_sse_deals": 0.482,
+  "bundle_share_in_sse_now": 0.463,
+  "bundle_share_target": 0.75,
+  "bundle_pts": 2.8,
+  "aligned_share_now": 0.284,
+  "aligned_share_target": 0.5,
+  "renewal_pts": 2.3
+ },
+ "plays_pts": 5.1,
+ "scenarios": [
+  {
+   "name": "Current plan",
+   "attainment": 0.8534,
+   "forecast": 54723000.0,
+   "cost": 0,
+   "run_rate": 0.0,
+   "hires": 0
+  },
+  {
+   "name": "Hire 6 specialists now",
+   "attainment": 0.9188,
+   "forecast": 58913000.0,
+   "cost": 1050000.0,
+   "run_rate": 12006000.0,
+   "hires": 6
+  },
+  {
+   "name": "Win-rate plays",
+   "attainment": 0.9521,
+   "forecast": 61053000.0,
+   "cost": 0,
+   "run_rate": 0.0,
+   "hires": 0
+  },
+  {
+   "name": "Recommended: plays + 4 hires",
+   "attainment": 1.0018,
+   "forecast": 64239000.0,
+   "cost": 700000.0,
+   "run_rate": 9125000.0,
+   "hires": 4
+  },
+  {
+   "name": "Hiring only",
+   "attainment": 1.0059,
+   "forecast": 64501000.0,
+   "cost": 2450000.0,
+   "run_rate": 28014000.0,
+   "hires": 14
+  }
+ ],
+ "baseline_forecast": 54723000.0,
+ "plays_forecast": 61053000.0,
+ "rec_forecast": 64239000.0,
+ "rec_hires": 4,
+ "rec_cost": 700000.0,
+ "rec_run_rate": 9125000.0,
+ "hire_only": 14,
+ "hire_only_cost": 2450000.0,
+ "slip_attainment": 0.9599206000264735,
+ "market_growth": [
+  {
+   "kind": "company",
+   "company": "Palo Alto Networks",
+   "ticker": "PANW",
+   "metric": "SASE ARR",
+   "fiscal_period": "Q3 FY26",
+   "period_end": "2026-04-30",
+   "growth": 0.4
+  },
+  {
+   "kind": "company",
+   "company": "Zscaler",
+   "ticker": "ZS",
+   "metric": "ARR excluding Red Canary",
+   "fiscal_period": "Q4 FY26",
+   "period_end": "2026-07-31",
+   "growth": 0.2
+  },
+  {
+   "kind": "company",
+   "company": "Fortinet",
+   "ticker": "FTNT",
+   "metric": "Unified SASE ARR",
+   "fiscal_period": "Q2 2026",
+   "period_end": "2026-06-30",
+   "growth": 0.18
+  },
+  {
+   "kind": "company",
+   "company": "Netskope",
+   "ticker": "NTSK",
+   "metric": "ARR",
+   "fiscal_period": "Q1 FY27",
+   "period_end": "2026-04-30",
+   "growth": 0.29
+  },
+  {
+   "kind": "market",
+   "company": "SASE market (Dell'Oro)",
+   "ticker": "",
+   "metric": "manufacturer revenue",
+   "fiscal_period": "1Q 2026",
+   "period_end": "2026-03-31",
+   "growth": 0.21
+  }
+ ],
+ "forecast_2029": 17.0,
+ "single_vendor": 90.0,
+ "top_six": 71.0,
+ "tiers": {
+  "A": {
+   "tier": "A",
+   "accounts": 1114,
+   "early_adopter_rate": 0.0359,
+   "post_launch_opps": 227,
+   "opps_per_100_accounts": 20.4,
+   "post_launch_win_rate": 0.455,
+   "post_launch_wins": 56
+  },
+  "B": {
+   "tier": "B",
+   "accounts": 1628,
+   "early_adopter_rate": 0.019,
+   "post_launch_opps": 116,
+   "opps_per_100_accounts": 7.1,
+   "post_launch_win_rate": 0.143,
+   "post_launch_wins": 10
+  },
+  "C": {
+   "tier": "C",
+   "accounts": 1458,
+   "early_adopter_rate": 0.0069,
+   "post_launch_opps": 48,
+   "opps_per_100_accounts": 3.3,
+   "post_launch_win_rate": 0.094,
+   "post_launch_wins": 3
+  }
+ },
+ "launch_lines": [
+  {
+   "metric": "Pipeline created",
+   "actual": 31742300.0,
+   "plan": 33769300.0,
+   "attainment": 0.94,
+   "status": "Watch"
+  },
+  {
+   "metric": "POVs started",
+   "actual": 275.0,
+   "plan": 344.0,
+   "attainment": 0.799,
+   "status": "At risk"
+  },
+  {
+   "metric": "Deals won",
+   "actual": 69.0,
+   "plan": 72.0,
+   "attainment": 0.958,
+   "status": "On track"
+  },
+  {
+   "metric": "Field certified, AMER",
+   "actual": 0.887,
+   "plan": 0.8,
+   "attainment": 1.109,
+   "status": "On track"
+  },
+  {
+   "metric": "Field certified, EMEA",
+   "actual": 0.813,
+   "plan": 0.8,
+   "attainment": 1.016,
+   "status": "On track"
+  },
+  {
+   "metric": "Field certified, JAPAC",
+   "actual": 0.596,
+   "plan": 0.8,
+   "attainment": 0.745,
+   "status": "At risk"
+  }
+ ],
+ "launch_totals": {
+  "opps": 391,
+  "open": 166,
+  "wins": 69,
+  "win_rate": 0.307,
+  "win_arr": 8499900.0,
+  "pipeline": 31742300.0,
+  "pov_to_win": 0.251,
+  "lost_at_pov_share": 0.564
+ },
+ "accounts": 4200,
+ "clean_opps": 3096,
+ "quarantined": 31,
+ "auc": 0.757,
+ "auc_gbm": 0.733,
+ "closed_land_deals": 1453
+}

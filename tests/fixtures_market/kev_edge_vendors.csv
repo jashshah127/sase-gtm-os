@@ -1,0 +1,7 @@
+cve_id,vendor,product,vulnerability_name,date_added,known_ransomware_use
+CVE-0000-0001,Vendor One,Gateway,Fake flaw one,2024-01-10,Known
+CVE-0000-0002,Vendor One,Gateway,Fake flaw two,2025-03-02,Unknown
+CVE-0000-0003,Vendor Two,VPN,Fake flaw three,2025-06-15,Known
+CVE-0000-0004,Vendor Two,VPN,Fake flaw four,2026-02-20,Unknown
+CVE-0000-0005,Vendor Three,Firewall,Fake flaw five,2026-05-05,Unknown
+CVE-0000-0006,Vendor One,Gateway,Fake flaw six,2026-08-30,Known

@@ -1,0 +1,258 @@
+{
+  "as_of": "2026-09-25",
+  "fiscal_label": "FY27 Q1",
+  "accounts": 4200,
+  "customers": 1059,
+  "attach_rate": 0.2521,
+  "sdwan_attach_of_customers": 0.577,
+  "sase_arr": 210669500.0,
+  "browser_arr": 16429100.0,
+  "bookings_by_fy": {
+    "2024": 28334300.0,
+    "2025": 35044900.0,
+    "2026": 47498200.0,
+    "2027": 9538300.0
+  },
+  "fy26_bookings": 47498200.0,
+  "fy25_bookings": 35044900.0,
+  "fy26_growth": 0.3554,
+  "bookings_by_quarter": [
+    {
+      "label": "FY24 Q1",
+      "land": 4692400.0,
+      "expansion": 1001400.0
+    },
+    {
+      "label": "FY24 Q2",
+      "land": 5591700.0,
+      "expansion": 2364300.0
+    },
+    {
+      "label": "FY24 Q3",
+      "land": 5946800.0,
+      "expansion": 1949700.0
+    },
+    {
+      "label": "FY24 Q4",
+      "land": 3963800.0,
+      "expansion": 2824200.0
+    },
+    {
+      "label": "FY25 Q1",
+      "land": 7072200.0,
+      "expansion": 2672200.0
+    },
+    {
+      "label": "FY25 Q2",
+      "land": 3169500.0,
+      "expansion": 4863800.0
+    },
+    {
+      "label": "FY25 Q3",
+      "land": 6904200.0,
+      "expansion": 2154900.0
+    },
+    {
+      "label": "FY25 Q4",
+      "land": 4700900.0,
+      "expansion": 3507200.0
+    },
+    {
+      "label": "FY26 Q1",
+      "land": 6160300.0,
+      "expansion": 3430700.0
+    },
+    {
+      "label": "FY26 Q2",
+      "land": 8835900.0,
+      "expansion": 4121700.0
+    },
+    {
+      "label": "FY26 Q3",
+      "land": 5599600.0,
+      "expansion": 6361900.0
+    },
+    {
+      "label": "FY26 Q4",
+      "land": 6145200.0,
+      "expansion": 6842900.0
+    },
+    {
+      "label": "FY27 Q1",
+      "land": 5150000.0,
+      "expansion": 4388300.0
+    }
+  ],
+  "fy26_land_win_rate": 0.364,
+  "fy26_land_closed_deals": 544,
+  "fy26_dollar_win_rate": 0.4706,
+  "win_rate_by_competitor": {
+    "Cisco": {
+      "deals": 239,
+      "win_rate": 0.377
+    },
+    "Cloudflare": {
+      "deals": 112,
+      "win_rate": 0.312
+    },
+    "Fortinet": {
+      "deals": 169,
+      "win_rate": 0.343
+    },
+    "Netskope": {
+      "deals": 192,
+      "win_rate": 0.391
+    },
+    "No competitor": {
+      "deals": 233,
+      "win_rate": 0.627
+    },
+    "Zscaler": {
+      "deals": 508,
+      "win_rate": 0.291
+    }
+  },
+  "loss_stage_share": {
+    "Technical Validation": 0.43,
+    "Qualify": 0.218,
+    "Proposal": 0.201,
+    "Negotiation": 0.152
+  },
+  "median_cycle_days_fy26_won_land": 129.5,
+  "fy27_target": 64123000.0,
+  "fy27_plan_by_quarter": [
+    13466000.0,
+    16672000.0,
+    14748000.0,
+    19237000.0
+  ],
+  "q1_qtd_bookings": 9538300.0,
+  "q1_elapsed_share": 0.6087,
+  "q1_attainment": 0.7083,
+  "q1_pacing": 1.1637,
+  "pipeline_coverage": [
+    {
+      "quarter": "FY27 Q1",
+      "pipeline": 12298400.0,
+      "remaining_plan": 3927000.0,
+      "coverage": 3.13
+    },
+    {
+      "quarter": "FY27 Q2",
+      "pipeline": 10640400.0,
+      "remaining_plan": 16672000.0,
+      "coverage": 0.64
+    },
+    {
+      "quarter": "FY27 Q3",
+      "pipeline": 9243900.0,
+      "remaining_plan": 14748000.0,
+      "coverage": 0.63
+    },
+    {
+      "quarter": "FY27 Q4",
+      "pipeline": 2408400.0,
+      "remaining_plan": 19237000.0,
+      "coverage": 0.13
+    }
+  ],
+  "open_pipeline_total": 35630700.0,
+  "tv_open_deals": 68,
+  "tv_stalled_deals": 21,
+  "tv_stalled_amount": 5673000.0,
+  "planning": {
+    "specialists": 26,
+    "specialists_ramping_now": 1,
+    "fy26_covered_bookings": 44190200.0,
+    "fy26_uncovered_bookings": 3308000.0,
+    "fy26_avg_ramped_fte": 22.09,
+    "productivity_per_ramped_specialist": 2001000.0,
+    "core_baseline_growth": 0.1,
+    "ramp_months": 6,
+    "attrition": 0.15,
+    "hiring_lead_months": 3,
+    "specialist_cost": 300000
+  },
+  "model": {
+    "cv_auc_logistic": 0.757,
+    "cv_auc_gradient_boosting": 0.734,
+    "top_decile_lift": 2.28,
+    "top3_decile_capture": 0.522
+  },
+  "whitespace": {
+    "non_customers": 3141,
+    "land_potential_total": 266849200.0,
+    "expected_value_total": 91066600.0,
+    "accounts_for_half_of_ev": 244,
+    "share_of_accounts_for_half": 0.078,
+    "expansion_whitespace_total": 266170600.0,
+    "ev_by_play": {
+      "Branch transformation": 4926000.0,
+      "Competitive displacement": 30510000.0,
+      "GlobalProtect migration": 32983000.0,
+      "Partner-led nurture": 9493000.0,
+      "Renewal-timed attach": 13154000.0
+    }
+  },
+  "coverage_gap": {
+    "by_coverage": [
+      {
+        "covered": 0,
+        "accounts": 1808,
+        "actual_attach": 0.121,
+        "modeled_attach": 0.286,
+        "latent_customers": 299
+      },
+      {
+        "covered": 1,
+        "accounts": 2392,
+        "actual_attach": 0.352,
+        "modeled_attach": 0.352,
+        "latent_customers": 0
+      }
+    ],
+    "uncovered_share_of_ev": 0.263
+  },
+  "deal_effects": {
+    "closed_land_deals": 1453,
+    "sse_rival_deals": 700,
+    "raw_win_sse_no_bundle": 0.2234,
+    "raw_win_sse_bundle": 0.429,
+    "adj_win_sse_no_bundle": 0.2246,
+    "adj_win_sse_bundle": 0.427,
+    "adj_win_not_aligned": 0.35,
+    "adj_win_aligned": 0.4569,
+    "adj_win_uncovered": 0.28,
+    "adj_win_covered": 0.4166,
+    "note": "Counterfactual averages from a logistic regression of land-deal outcomes on bundle, rival, bundle x rival, coverage, renewal alignment, partner source, and segment."
+  },
+  "icp_tiers": [
+    {
+      "tier": "A",
+      "accounts": 1114,
+      "early_adopter_rate": 0.0359,
+      "post_launch_opps": 227,
+      "opps_per_100_accounts": 20.4,
+      "post_launch_win_rate": 0.455,
+      "post_launch_wins": 56
+    },
+    {
+      "tier": "B",
+      "accounts": 1628,
+      "early_adopter_rate": 0.019,
+      "post_launch_opps": 116,
+      "opps_per_100_accounts": 7.1,
+      "post_launch_win_rate": 0.143,
+      "post_launch_wins": 10
+    },
+    {
+      "tier": "C",
+      "accounts": 1458,
+      "early_adopter_rate": 0.0069,
+      "post_launch_opps": 48,
+      "opps_per_100_accounts": 3.3,
+      "post_launch_win_rate": 0.094,
+      "post_launch_wins": 3
+    }
+  ]
+}
